@@ -1,19 +1,12 @@
 
 <template>
   <div class="card flex justify-content-center">
-    <Avatar
-      image="https://freya.primevue.org/layout/images/avatar/square/avatar-m-1.jpg"
-      class="mr-2"
-      size="small"
-      shape="circle"
-      @click="toggle"
-    />
-
+    <i class="pi pi-ellipsis-v" @click="toggle"></i>
     <Menu ref="menu" id="overlay_menu" :model="items" :popup="true" />
   </div>
 </template>
-
-<script setup>
+  
+  <script setup>
 import { ref } from "vue";
 const menu = ref();
 const items = ref([
@@ -21,16 +14,16 @@ const items = ref([
     label: "",
     items: [
       {
-        label: "Profile",
-        icon: "pi pi-fw pi-user",
+        label: "Complete",
+        icon: "pi pi-check",
       },
       {
-        label: "Settings",
-        icon: "pi pi-fw pi-cog",
+        label: "Cancel",
+        icon: "pi pi-times",
       },
       {
-        label: "logout",
-        icon: "pi pi-sign-out",
+        label: "Details",
+        icon: "pi pi-external-link",
       },
     ],
   },

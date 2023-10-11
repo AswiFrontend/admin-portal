@@ -23,6 +23,7 @@ import Menu from "./Menu.vue";
     align-items: center;
     justify-content: flex-end;
     gap: 2.5rem;
-    padding: 0 1rem;
+    padding:  1rem;
+  
 }
 </style> 

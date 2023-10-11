@@ -1,9 +1,9 @@
 <template>
   <main>
-    <Home />
-
     <SideBar />
-
+    <main class="home-wrapper">
+      <Home />
+    </main>
   </main>
 </template>
 

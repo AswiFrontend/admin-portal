@@ -1,5 +1,5 @@
 <template>
-  <section class="admin-card" :style="{ backgroundColor: color }">
+  <section class="admin-card card table-data-card" :style="{ backgroundColor: color }">
     <article>
       {{ text }}
 
@@ -16,7 +16,7 @@ defineProps(["text", "number", "color", "icon"]);
 
 <style lang="scss" scoped>
 .admin-card {
-  width: 17rem;
+  width: 15rem;
   height: 6rem;
   border-radius: 2rem;
   display: flex;
@@ -32,6 +32,7 @@ flex-grow: 2;
   }
   span{
     font-size: 28px;
+    font-weight: bold;
   }
 }
 </style>
