@@ -52,11 +52,6 @@ const setChartData = () => {
 </script>
 
 <style scoped>
-.pie-chart {
-  width: 20rem;
-  height: 20rem;
-  background-color: white;
-  border-radius: 20px;
-  padding: 1rem;
-}
+@import '../styles/bar-graph.scss';
+
 </style>

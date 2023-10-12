@@ -100,10 +100,5 @@ const setChartOptions = () => {
 </script>
 
 <style>
-.line-chart{
-    background-color: white;
-    height: auto;
-    border-radius: 20px;
-    padding: 1rem;
-}
+@import '../../styles/bar-graph.scss';
 </style>

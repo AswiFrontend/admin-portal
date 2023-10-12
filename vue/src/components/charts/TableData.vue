@@ -28,21 +28,7 @@ import SingleTable from "./SingleTable.vue";
 </script>
 
 <style lang="scss">
-.table-data {
-  width: 28rem;
-  background-color: white;
-  border-radius: 20px;
-  padding: 1rem;
-  margin-top: 1rem;
-  height: 35rem;
-  overflow-y: scroll;
-  .table-data-card {
-    height: 4rem !important;
-    font-size: 10px;
-    background-color: #f3fbfb !important;
-    color: black;
-  }
-}
+@import '../../styles/table.scss';
 </style>
 
 

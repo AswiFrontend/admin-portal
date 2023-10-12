@@ -11,6 +11,9 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.side-bar:hover {
+    transition: all .5s
+}
 header {
     display: flex;
     gap: 15px;
@@ -19,4 +22,43 @@ header {
 
 .remove-scroll {
     overflow: hidden;
+}
+.drop-down-side-bar {
+    margin-bottom: 50px;
+
+    h5 {
+        color: #293241;
+        padding: 0;
+        margin: 0;
+        margin: 20px 0;
+        padding: 0 10px;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    li {
+        color: #14b8a6;
+        list-style: none;
+        margin: 20px 0;
+        display: flex;
+        gap: 15px;
+        font-family: sans-serif;
+        overflow: hidden;
+        height: 1.2rem;
+    }
+
+    .v-enter-active,
+    .v-leave-active {
+        transition: opacity 0.1s ease;
+    }
+
+    .v-enter-from,
+    .v-leave-to {
+        opacity: 0;
+    }
+
 }

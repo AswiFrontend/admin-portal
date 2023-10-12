@@ -152,26 +152,5 @@ const setChartOptions = () => {
 };
 </script>
 <style lang="scss" scoped>
-.bar-section {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-}
-.orders-text{
-    display: flex;
-    gap: 2rem;
-    p{
-        display: flex;
-        flex-direction: column;
-        font-size: 12px;
-    }
-}
-.bar-graph{
-    margin: 1rem;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: 1rem;
-    border-radius: 30px;
-    background-color: white;
-
-}
+@import '../../styles/bar-graph.scss';
 </style>

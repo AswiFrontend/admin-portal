@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="all-cards">
     <Cards
       v-for="card in cardsData"
       :text="card.text"
@@ -38,17 +38,8 @@ const cardsData = ref([
 ]);
 </script>
 
-<style lang="scss" scoped>
-main {
-  padding: 1rem;
-  background-color: #eef0f4;
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  gap: 1rem;
-  flex-wrap: wrap;
-  section:first-child {
-    color: #000;
-  }
-}
+<style lang="scss">
+@import '../../styles/card.scss';
+
+
 </style>

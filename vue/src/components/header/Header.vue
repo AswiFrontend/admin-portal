@@ -17,13 +17,6 @@ import InputTag from "./InputTag.vue";
 import Menu from "./Menu.vue";
 </script>
 
-<style lang="scss" scoped>
-.header-right{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 2.5rem;
-    padding:  1rem;
-  
-}
+<style lang="scss">
+@import '../../styles/header.scss';
 </style> 

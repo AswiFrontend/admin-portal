@@ -1,0 +1,31 @@
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2.5rem;
+    padding: 1rem;
+
+}
+
+.header-input .p-inputtext {
+    border-radius: 4rem;
+    width: 13rem;
+    background-color: #dee2e6 !important;
+    height: 33px;
+    outline: none;
+}
+
+.home-view {
+
+    .p-message.p-message-info {
+        background: #ffffff !important;
+        border: none !important;
+        border-width: 0 0 0 6px !important;
+        color: gray !important;
+        border-radius: 20px !important;
+    }
+
+    .p-message .p-message-text {
+        font-size: 10px !important;
+    }
+}
