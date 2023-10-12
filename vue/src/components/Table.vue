@@ -69,34 +69,5 @@ const products = ref([
 ]);
 </script>
 <style lang="scss" scoped>
-.thumbnail-table {
-  width: 6rem;
-  border-radius: 10px;
-}
-.search-in-table {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  padding: 1rem;
-  background-color: white;
-}
-.table-products {
-  margin-top: 2rem;
-  border-radius: 2rem;
-  .card {
-    background-color: white !important;
-  }
-}
-.data-table {
-  border: 2px solid red;
-  background-color: white !important;
-  .p-datatable-header {
-    background-color: white !important;
-  }
-}
-
-.p-datatable .p-component .p-datatable-responsive-scroll {
-  background-color: white !important;
-}
+@import "../styles/table.scss";
 </style>

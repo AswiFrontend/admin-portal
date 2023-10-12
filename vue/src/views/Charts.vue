@@ -16,18 +16,5 @@ import LineChart from "@/components/charts/LineChart.vue";
 </script>
 
 <style lang="scss" scoped>
-.charts-view {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  aside {
-    width: 50rem;
-    height: 40rem;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .pie-card {
-    display: flex;
-  }
-}
+@import '../styles/bar-graph.scss';
 </style>

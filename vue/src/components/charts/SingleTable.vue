@@ -13,23 +13,5 @@ import Settings from "./Settings.vue";
 </script>
 
 <style lang="scss" scoped>
-.single-table {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #e8f7f7;
-  border-radius: 20px;
-  padding: 1rem;
-  margin: 1rem 0;
-
-  h5,
-  p {
-    margin: 0;
-    padding: 0;
-  }
-  p {
-    margin-top: 10px;
-    font-size: 12px;
-  }
-}
+@import "../../styles/table.scss";
 </style>

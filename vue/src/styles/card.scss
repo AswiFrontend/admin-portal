@@ -1,0 +1,37 @@
+.all-cards {
+    padding: 1rem;
+    background-color: #eef0f4;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    section:first-child {
+        color: #000;
+    }
+}
+
+
+.admin-card {
+    width: 15rem;
+    height: 6rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+    gap: .2rem;
+    color: #fff;
+    flex-grow: 2;
+
+    article {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    span {
+        font-size: 28px;
+        font-weight: bold;
+    }
+}

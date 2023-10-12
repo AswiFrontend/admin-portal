@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="home-view">
     <Header />
     <Message icon="null" :unstyled="false"
       >👋 Hello! Welcome to Freya! Before start please complete your profile to
@@ -19,14 +19,5 @@ import Table from "@/components/Table.vue";
 </script>
 
 <style lang="scss" scoped>
-.p-message.p-message-info {
-  background: #ffffff !important;
-  border: none !important;
-  border-width: 0 0 0 6px !important;
-  color: gray !important;
-  border-radius: 20px !important;
-}
-.p-message .p-message-text {
-  font-size: 10px !important;
-}
+@import '../styles/header.scss';
 </style>
